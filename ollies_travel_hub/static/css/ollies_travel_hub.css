@@ -1,0 +1,53 @@
+/* general */
+
+* {
+    color: silver;
+    font-family: Gruppo;
+}
+body {
+    background: url('amalficopy2.jpeg') no-repeat center center fixed, rgba(0,0,0,0.6) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-blend-mode: overlay;
+}
+
+/* landing_page */
+
+#landing_page {
+    background: black;
+}
+#landing-page-image {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+#landing-page-image img {
+    width: 40%;
+}
+.landing-page-button {
+    letter-spacing: 20px;
+    padding-left: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Navbar */
+
+#navbar-container {
+    width: 50%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar-container a {
+    padding: 0 30px;
+    font-size: 30px;
+}
+
+/* scratch_map app*/
+.main-page {
+    text-align: center;
+}

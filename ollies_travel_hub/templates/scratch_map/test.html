@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content %}
+        <h2>{{ title }}</h2>
+        {% if country %}
+            <table style="margin: 0 auto; width:30%; border: 3px solid black;">
+                <thead>
+                    <th>country_visited</th>
+                    <th>year_visited</th>
+                </thead>
+                {% for country in country %}
+                <tr>
+                    <td>{{ country.country_visited }}</td>
+                    <td>{{ country.year_visited }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% else %}
+            <p>No data.</p>
+        {% endif %}
+    {% endblock %}
