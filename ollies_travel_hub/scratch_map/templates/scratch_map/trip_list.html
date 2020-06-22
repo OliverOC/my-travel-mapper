@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content %}
+        <h2>{{ title }}</h2>
+
+        <br>
+
+        <div class="container">
+            <a class="btn btn-primary" href="{% url 'scratch_map:add_trip' %}">Add Trip</a>
+        </div>
+
+        <br>
+
+        <div id="photo-card-container" class="container">
+            <div class="row">
+                {% for c in trips %}
+                    <div class="col-xl-6 col-md-12 col-sm-12 px-0">
+                        <div class="card photo-card mx-auto">
+                          <img src="{{ c.trip_img.url }}" class="card-img-top photo-card-img" alt="{{ c.country_visited }}">
+                          <div class="card-body">
+                            <h5 class="card-title">{{ c.country_visited }}</h5>
+                            <p class="card-text">{{ c.year_visited }}</p>
+<!--                                                          <p class="card-text">{{ c.Comment }}</p>-->
+                          </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    {% endblock %}

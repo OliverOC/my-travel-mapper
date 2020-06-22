@@ -1,11 +1,11 @@
 /* general */
 
 * {
-    color: silver;
+    color: white;
     font-family: Gruppo;
 }
 body {
-    background: url('amalficopy2.jpeg') no-repeat center center fixed, rgba(0,0,0,0.6) no-repeat center center fixed;
+    background: url('background.jpeg') no-repeat center center fixed, rgba(0,0,0,0.6);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -27,6 +27,7 @@ body {
     width: 40%;
 }
 .landing-page-button {
+    margin-top: 40px;
     letter-spacing: 20px;
     padding-left: 30px;
     border: 2px solid white;
@@ -35,19 +36,93 @@ body {
 
 /* Navbar */
 
+#logo-container {
+    margin: 10px auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #navbar-container {
-    width: 50%;
-    margin: 40px auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #navbar-container a {
-    padding: 0 30px;
-    font-size: 30px;
+    margin: 0 20px;
+    font-size: 20px;
+    color: #29dba0;
+    text-align: center;
+}
+#navbar-account-pic {
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
-/* scratch_map app*/
+/* scratch_map APP*/
+
 .main-page {
     text-align: center;
+    margin-top: 50px;
+}
+
+/* add_trip PAGE */
+
+#add-trip-container {
+    width: 400px;
+}
+
+/* photo_cards PAGE */
+
+#photo-card-container {
+
+}
+.photo-card {
+    width: 500px;
+    margin: 20px 30px;
+    padding: 2px 2px;
+    text-align: center;
+}
+.photo-card-img {
+    height: 500px;
+    object-fit: cover;
+}
+.photo-card h5 {
+    color: grey;
+    font-size: 28px;
+}
+.photo-card p {
+    color: grey;
+    font-size: 24px;
+}
+
+/* map PAGE */
+
+#map-container {
+    padding: 0 0;
+    margin: 0 auto;
+    width: 90%;
+}
+#map-card-container {
+    margin-top: 40px;
+}
+#map-card {
+    color: grey;
+    margin: 20px 30px;
+    padding: 2px 2px;
+    text-align: center;
+    display: none;
+}
+#map-card * {
+    color: grey;
+}
+#map-card-img {
+
+}
+.picture-upload {
+    background: Transparent;
+    border: none;
 }

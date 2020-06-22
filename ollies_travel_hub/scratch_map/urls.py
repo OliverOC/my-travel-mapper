@@ -4,7 +4,9 @@ from . import views
 app_name = 'scratch_map'
 
 urlpatterns = [
-    path('', views.home_view, name='home'),
-    path('test/', views.test_view, name='test'),
-    path('add-trip/', views.add_trip_form_view, name='add_trip'),
+    path('', views.landing_page_view, name='landing_page'),
+    path('home/', views.home_view, name='home'),
+    path('photo-cards/', views.TripListView.as_view(), name='photo_cards'),
+    path('map/', views.MapListView.as_view(), name='map'),
+    path('add-trip/', views.CreateTripView.as_view(), name='add_trip'),
 ]

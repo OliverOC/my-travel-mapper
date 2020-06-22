@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content %}
+        <h2>{{ title }}</h2>
+        <hr>
+        <div id="add-trip-container" class="container">
+            <form method="POST" enctype="multipart/form-data">
+                {{ form.as_p }}
+                {% csrf_token %}
+                <input type="submit" class="btn btn-primary" value="Add">
+            </form>
+        </div>
+
+    {% endblock %}
