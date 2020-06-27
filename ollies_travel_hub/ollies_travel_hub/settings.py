@@ -142,3 +142,7 @@ LOGIN_URL = '/accounts/login'
 
 LOGIN_REDIRECT_URL = 'test'
 LOGOUT_REDIRECT_URL = 'thanks'
+
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda o: "../../profile/%s/" % o.userprofile.slug,
+}

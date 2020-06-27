@@ -2,169 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae12a18-680c-4289-8965-b058a0fa0c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ollies_travel_hub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0002_auto_20200602_1224.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0003_user_profile_pic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0004_remove_user_profile_pic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0005_delete_userprofile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0006_userprofile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/update_user_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/877B157B-4FA3-42F1-852F-6EC21C104D90_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/8A07835F-FD56-474A-BA0B-DABC8B122334_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/8A429A96-045B-4322-92D8-936A5478A049_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/8A429A96-045B-4322-92D8-936A5478A049_1_105_c_lA1VQHU.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/8A964A21-71A4-4303-AC3C-76D1C99ABC9C_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Amalfi_2019.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Austria_2019.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Austria_2019_LErXgNr.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Austria_2019_dTQfKoh.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Barcelona_2017.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Canada_2013.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/G0142279.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Logo3_2FS9iYD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Logo3_5gyOlAx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Logo3_6jLjxn8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Logo3_EvnfyMp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Logo3_jBJ4PXW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Logo3_zULXBFC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Malta_2018.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Portugal_2015.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/St_Lucia_2019.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/St_Lucia_2019_YMc1wEY.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Turkey_2017.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Turkey_2017_lRhSEtY.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/USA_2013.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Val_Thorens_2020.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/Val_Thorens_2020_N1vjSgr.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/default.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0002_auto_20200520_1401.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0003_auto_20200520_1441.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0004_auto_20200527_2144.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0005_auto_20200528_1217.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0006_auto_20200528_1223.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0007_auto_20200530_1629.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0008_auto_20200530_1636.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0009_auto_20200530_1637.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0010_auto_20200601_1039.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0011_auto_20200601_1058.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0013_auto_20200618_0932.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/map_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/photo_cards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/geojson/countries.geojson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/COPYING.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/beautifulsoup4-4.9.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/bootstrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/components.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/renderers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templates/bootstrap4/bootstrap4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templates/bootstrap4/field_errors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templates/bootstrap4/field_help_text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templates/bootstrap4/form_errors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templates/bootstrap4/messages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templates/bootstrap4/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templates/bootstrap4/widgets/radio_select_button_group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/templatetags/bootstrap4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bootstrap4/widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/builder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/builder/_html5lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/builder/_htmlparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/builder/_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/dammit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/diagnose.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/formatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/test_builder_registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/test_docs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/test_html5lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/test_htmlparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/test_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/test_soup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/bs4/tests/test_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_bootstrap4-2.0.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_bootstrap4-2.0.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_bootstrap4-2.0.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_bootstrap4-2.0.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_bootstrap4-2.0.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve-2.0.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve/__meta__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve/css_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve/css_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve/css_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/soupsieve/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0008_userprofile_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0009_auto_20200624_1405.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0010_remove_userprofile_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0011_auto_20200625_1027.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0012_auto_20200625_1208.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0013_auto_20200625_1209.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0014_auto_20200625_1355.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0015_auto_20200625_1359.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/user_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/1FD8E22F-36D5-4CEC-A3C0-AA1A1F02EAE3_1_105_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/8A128AFD-BF71-4CB6-B753-B08732A34AB6_1_105_c_SYOagRx.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/8C91CD84-900A-41BC-8F2C-1AA0F6D96D66_1_105_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/E01ADE67-A0CE-46EA-BFB6-A2049A5547F5_1_105_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/E4F5F4AD-CA7D-40D6-A249-3EC145212F74_1_105_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/E59DB30E-7134-4680-90DE-81CC5F2EA16E_1_105_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/EC247765-3FBB-4DF8-8B51-8DA73D54B7EF_1_100_o.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/G0031855.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/G0041885.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/signup2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/update_user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/ollies_travel_hub/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/populate_country_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/landing_page/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/media/profile_pics/34EB4B28-1C38-4F68-9CE6-065C4EB07BA4_4_5005_c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/media/profile_pics/365400A0-95C8-4552-ACBD-452C3F81967E_4_5005_c.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/ollies_travel_hub/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/ollies_travel_hub/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/ollies_travel_hub/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/ollies_travel_hub/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/populate_visit_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/populate_trip_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0002_auto_20200517_1603.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0003_auto_20200517_2207.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0004_auto_20200518_1309.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0012_auto_20200601_1113.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/css/amalfi.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/css/amalficopy.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/css/amalficopy2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/static/css/background.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/css/ollies_travel_hub.css" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/static/css/ollies_travel_hub.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logoALT.png" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/logoALT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/accounts/sign_up.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/landing_page/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/landing_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/scratch_map/add_trip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/scratch_map/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/templates/thanks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/scratch_map/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,21 +69,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ollies_travel_hub/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ollies_travel_hub/templates" />
-      <recent name="$PROJECT_DIR$/ollies_travel_hub/templates/scratch_map" />
-      <recent name="$PROJECT_DIR$/ollies_travel_hub/static/css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ollies_travel_hub/templates" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/landing_page/templates" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/accounts/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts" />
+      <recent name="$PROJECT_DIR$/ollies_travel_hub/templates" />
+      <recent name="$PROJECT_DIR$/ollies_travel_hub/templates/scratch_map" />
+      <recent name="$PROJECT_DIR$/ollies_travel_hub/static/css" />
     </key>
   </component>
   <component name="RunManager">

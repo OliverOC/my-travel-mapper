@@ -56,17 +56,37 @@ body {
     color: #29dba0;
     text-align: center;
 }
+#navbar-container a:hover {
+    font-weight: 900;
+}
 #navbar-account-pic {
-    height: 20px;
-    border-radius: 5px;
-    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#account-pic-container {
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#account-pic-username {
+    color: white;
+}
+#account-pic-username:hover {
+    font-weight: 900;
+}
+
+/* accounts APP*/
+.accounts-form {
+    width: 600px;
 }
 
 /* scratch_map APP*/
 
 .main-page {
     text-align: center;
-    margin-top: 50px;
 }
 
 /* add_trip PAGE */
@@ -126,3 +146,6 @@ body {
     background: Transparent;
     border: none;
 }
+
+
+
