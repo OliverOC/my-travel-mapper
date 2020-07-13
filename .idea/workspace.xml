@@ -2,40 +2,230 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae12a18-680c-4289-8965-b058a0fa0c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0008_userprofile_slug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0009_auto_20200624_1405.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0010_remove_userprofile_slug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0011_auto_20200625_1027.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0012_auto_20200625_1208.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0013_auto_20200625_1209.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0014_auto_20200625_1355.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/migrations/0015_auto_20200625_1359.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/user_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/1FD8E22F-36D5-4CEC-A3C0-AA1A1F02EAE3_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/8A128AFD-BF71-4CB6-B753-B08732A34AB6_1_105_c_SYOagRx.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/8C91CD84-900A-41BC-8F2C-1AA0F6D96D66_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/E01ADE67-A0CE-46EA-BFB6-A2049A5547F5_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/E4F5F4AD-CA7D-40D6-A249-3EC145212F74_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/E59DB30E-7134-4680-90DE-81CC5F2EA16E_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/EC247765-3FBB-4DF8-8B51-8DA73D54B7EF_1_100_o.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/accounts/profile_pics/G0031855.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/media/scratch_map/images/G0041885.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0014_auto_20200629_1433.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0015_auto_20200629_1514.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0016_auto_20200710_1438.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/migrations/0017_auto_20200710_1454.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/LogoALTb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo_no_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo_no_bg_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo_no_bg_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo_no_bg_test2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/archive/logo_no_bg_test3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/scratch_map/home_photos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/scratch_map/home_scratch_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/scratch_map/home_scratch_map_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/images/site_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/js/scratch_map/photo_cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollies_travel_hub/static/js/scratch_map/scratch_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/compatibility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/layout_slice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/accordion-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/field_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/field_errors_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/field_with_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/formactions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/help_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/help_text_and_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/prepended_appended_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/radioselect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/radioselect_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/row.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/tab-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/layout/uneditable_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/table_inline_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/accordion-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/inputs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/field_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/field_errors_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/field_with_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/formactions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/help_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/help_text_and_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/inline_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/prepended_appended_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/radioselect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/radioselect_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/row.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/tab-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/layout/uneditable_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/table_inline_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap3/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/accordion-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/inputs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/field_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/field_errors_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/field_file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/field_with_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/formactions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/help_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/help_text_and_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/inline_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/prepended_appended_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/radioselect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/radioselect_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/row.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/tab-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/layout/uneditable_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/table_inline_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/bootstrap4/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/field.strict.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/layout/column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/layout/row.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templates/uni_form/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templatetags/crispy_forms_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templatetags/crispy_forms_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templatetags/crispy_forms_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/templatetags/crispy_forms_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/templates/crispy_render_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/templates/custom_field_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/templates/custom_form_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/templates/custom_form_template_with_context.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/test_dynamic_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/test_form_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/test_layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/test_layout_objects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/test_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/test_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/tests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/crispy_forms/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_crispy_forms-1.9.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_crispy_forms-1.9.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_crispy_forms-1.9.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_crispy_forms-1.9.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_crispy_forms-1.9.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_crispy_forms-1.9.1.dist-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/password_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/signup2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/update_user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/user_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/user_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts/userprofile_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/ollies_travel_hub/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/ollies_travel_hub/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/landing_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/map_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/map_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/photo_cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/test.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map/trip_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/scratch_map/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/css/ollies_travel_hub.css" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/static/css/ollies_travel_hub.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo_no_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo_no_bg_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo_no_bg_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo_no_bg_test2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollies_travel_hub/static/images/logo_no_bg_test3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ollies_travel_hub/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ollies_travel_hub/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,11 +264,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ollies_travel_hub/static/images/scratch_map" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/templates" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/scratch_map/templates/scratch_map" />
       <recent name="$PROJECT_DIR$/ollies_travel_hub/landing_page/templates" />
-      <recent name="$PROJECT_DIR$/ollies_travel_hub/accounts/templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ollies_travel_hub/accounts/templates/accounts" />
@@ -148,11 +338,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.right/1440.-1260.3840.2160/0.0.1440.900@0.0.1440.900" timestamp="1589734352265" />
-    <state x="2051" y="-1046" key="SettingsEditor" timestamp="1590618097920">
-      <screen x="1440" y="-1260" width="3840" height="2160" />
+    <state x="1919" y="-624" key="SettingsEditor" timestamp="1593444613207">
+      <screen x="1440" y="-792" width="3008" height="1692" />
     </state>
     <state x="229" y="89" key="SettingsEditor/1440.-1260.3840.2160/0.0.1440.900@0.0.1440.900" timestamp="1589627344685" />
     <state x="2051" y="-1046" key="SettingsEditor/1440.-1260.3840.2160/0.0.1440.900@1440.-1260.3840.2160" timestamp="1590618097920" />
+    <state x="1919" y="-624" key="SettingsEditor/1440.-792.3008.1692/0.0.1440.900@1440.-792.3008.1692" timestamp="1593444613207" />
+    <state x="427" y="205" width="586" height="490" key="find.popup" timestamp="1594297166745">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="427" y="205" width="586" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594297166745" />
     <state x="2467" y="-790" width="1787" height="1623" key="search.everywhere.popup" timestamp="1590747138499">
       <screen x="1440" y="-1260" width="3840" height="2160" />
     </state>

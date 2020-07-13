@@ -3,68 +3,118 @@
 {% load static %}
 
     {% block content %}
-        <h2>{{ title }}</h2>
-
         <div id="map-container" class="container-fluid">
-            <div id='map' style='height: 1400px; border-radius: 10px;'></div>
-                <script>
-                    mapboxgl.accessToken = 'pk.eyJ1Ijoib2xsaWVvYzIyIiwiYSI6ImNrOHNxZWFlaTBpZDIza2xvcGE5ZG91M2sifQ.9npMyFp_6pYpb-32MBCYSQ';
-                    var map = new mapboxgl.Map({
-                        container: 'map',
-                        style: 'mapbox://styles/mapbox/dark-v10',
-                        center: [7.5, 34.5],
-                        zoom: 2
-                    });
-                </script>
+            <div id='map' style='height: 60vh; border-radius: 10px 10px 0 0;'></div>
 
-                {% for c in trips %}
-                    <script>
-                        map.on('load', function() {
-                            map.addSource('{{ c.country_visited|safe }}', {
-                                'type': 'geojson',
-                                'data': {
-                                    'type': 'Feature',
-                                    'properties': {},
-                                    'geometry': {
-                                        'type': '{{ c.country_visited.country_type|safe }}',
-                                        'coordinates': {{ c.country_visited.country_coordinates|safe }}
-                                    }
-                                }
-                            });
-
-                            map.addLayer({
-                                'id': '{{ c.country_visited|safe }}',
-                                'type': 'fill',
-                                'source': '{{ c.country_visited|safe }}',
-                                'layout': {},
-                                'paint': {
-                                    'fill-color': '#088',
-                                    'fill-opacity': 0.5
-                                }
-                            });
-                        });
-                    </script>
-                {% endfor %}
-        </div>
-
-        <div id="map-card-container" class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    {% for c in trips %}
-                        <h1 class="countries-img-link">{{ c.country_visited }} {{ c.year_visited }}</h1>
-                    {% endfor %}
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div id="map-card" class="card mx-auto">
-                        <img id="map-card-img" src="data:image/jpeg;base64,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" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ c.Country }}</h5>
-                            <h3 class="card-title">{{ c.Year }}</h3>
-                            <p class="card-text">comment</p>
+                <div class="col-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                          {% for c in trips %}
+                                {% if c.id == trips.first.id %}
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                {% else %}
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="{{ forloop.counter0 }}"></li>
+                                {% endif %}
+                            {% endfor %}
+                      </ol>
+                        <div class="carousel-inner">
+                            {% for c in trips %}
+                                {% if c.id == trips.first.id %}
+                                    <div class="carousel-item active">
+                                {% else %}
+                                    <div class="carousel-item">
+                                {% endif %}
+                                  <img src="{{ c.trip_img.url }}" class="d-block w-100" alt="{{ c.country_visited }}" style="height: 66vh; object-fit:cover;">
+<!--                                    <div class="container-fluid" style="height: 300px; padding: 0;">-->
+                                        <div class="container-fluid map-card-caption">
+                                            <h5>{{ c.country_visited }} {{ c.year_visited }}</h5>
+                                            <p>{{ c.note }}</p>
+                                        </div>
+<!--                                    </div>-->
+<!--                              <div class="carousel-caption d-none d-md-block"></div>-->
+                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
+
+<!--                <div class="col-lg-6 col-md-12">-->
+
+
+
+<!--&lt;!&ndash;                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span class="sr-only">Previous</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                      </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span class="carousel-control-next-icon" aria-hidden="true"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span class="sr-only">Next</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                      </a>&ndash;&gt;-->
+<!--                    </div>-->
+
+<!--&lt;!&ndash;                    <div class="btn-group-vertical" style="width: 100%; font-size: 24px;">&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% for c in trips %}&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button type="button" name="{{ c.id }}" class="btn btn-secondary countries-img-link">{{ c.country_visited }} {{ c.year_visited }}</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+<!--                <div class="col-lg-6 col-md-12" style="padding: 0;">-->
+<!--                    {% for c in trips %}-->
+<!--                    <div id="id{{ c.id }}" class="card mx-auto map-card">-->
+<!--                        <img class="card-img-top map-card-img" src="{{ c.trip_img.url }}" alt="{{ c.country_visited }}">-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title map-card-country">{{ c.country_visited }}</h5>-->
+<!--                            <h3 class="card-title map-card-year">{{ c.year_visited }}</h3>-->
+<!--                            <p class="card-text map-card-note">{{ c.note }}</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+
             </div>
         </div>
 
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoib2xsaWVvYzIyIiwiYSI6ImNrOHNxZWFlaTBpZDIza2xvcGE5ZG91M2sifQ.9npMyFp_6pYpb-32MBCYSQ';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/light-v10',
+                center: [7.5, 34.5],
+                zoom: 1.2
+            });
+            map.addControl(new mapboxgl.FullscreenControl());
+        </script>
+
+        {% for c in trips %}
+            <script>
+                map.on('load', function() {
+                    map.addSource('{{ c.country_visited|safe }}{{ c.id|safe }}', {
+                        'type': 'geojson',
+                        'data': {
+                            'type': 'Feature',
+                            'properties': {},
+                            'geometry': {
+                                'type': '{{ c.country_visited.country_type|safe }}',
+                                'coordinates': {{ c.country_visited.country_coordinates|safe }}
+                            }
+                        }
+                    });
+
+                    map.addLayer({
+                        'id': '{{ c.id|safe }}',
+                        'type': 'fill',
+                        'source': '{{ c.country_visited|safe }}{{ c.id|safe }}',
+                        'layout': {},
+                        'paint': {
+                            'fill-color': '#29dba0',
+                            'fill-opacity': 0.5
+                        }
+                    });
+                });
+            </script>
+        {% endfor %}
+
+<!--        <script src="{% static 'js/scratch_map/scratch_map.js' %}"></script>-->
     {% endblock %}

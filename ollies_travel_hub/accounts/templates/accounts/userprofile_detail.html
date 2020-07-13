@@ -5,8 +5,16 @@
     {% block content %}
 
         <div class="container accounts-form">
-            <p><a href="{% url 'accounts:profile_pic' slug=user.username %}">Edit Profile Picture</a></p>
             <h1>Account</h1>
+
+            <div id="account-buttons-container" class="container">
+                <div class="btn-group" role="group" aria-label="Basic example" style="width:100%;">
+                    <a class="btn btn-secondary photo-buttons" href="{% url 'accounts:update' slug=user.username %}">Edit User Information</a>
+                    <a class="btn btn-secondary photo-buttons" href="{% url 'accounts:profile_pic' slug=user.username %}">Edit Profile Picture</a>
+                    <a class="btn btn-secondary photo-buttons" href="{% url 'accounts:password_update' %}">Update Password</a>
+                </div>
+            </div>
+
             <h3>Full name</h3>
             <p>{{object.user.first_name}} {{object.user.last_name}}</p>
             <h3>Username</h3>
@@ -15,8 +23,6 @@
             <p>{{object.user.email}}</p>
             <h3>Date Joined</h3>
             <p>{{object.user.date_joined}}</p>
-            <a class="nav-item nav-link" href="{% url 'accounts:update' slug=user.username %}">Edit User</a>
-            <p><a href="{% url 'accounts:password_update' %}">Update password</a></p>
         </div>
 
     {% endblock %}

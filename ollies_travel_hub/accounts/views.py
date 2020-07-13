@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.views.generic import View, CreateView, TemplateView, DetailView
 from django.views.generic.edit import ModelFormMixin, UpdateView
 from .models import User, UserProfile
-from .forms import UserSignUpForm, UserProfileForm, UpdateUserProfileForm
+from .forms import UserSignUpForm, UserProfileForm, UpdateUserProfileForm, UserUpdateForm
 
 
 # class SignUp(CreateView):
@@ -72,8 +72,7 @@ class UserDetail(DetailView):
 
 class EditUser(UpdateView):
     model = User
-    # form_class = UserUpdateForm
-    fields = ('first_name', 'last_name', 'email', 'is_active')
+    form_class = UserUpdateForm
     template_name = 'accounts/user_update.html'
     slug_field = 'username'
 
@@ -84,8 +83,7 @@ class EditUser(UpdateView):
 
 class EditUserProfile(UpdateView):
     model = UserProfile
-    # form_class = UpdateUserProfileForm
-    fields = ('profile_pic',)
+    form_class = UpdateUserProfileForm
     template_name = 'accounts/userprofile_update.html'
 
     def get_success_url(self):

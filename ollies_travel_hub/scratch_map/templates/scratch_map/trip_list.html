@@ -3,12 +3,11 @@
 {% load static %}
 
     {% block content %}
-        <h2>{{ title }}</h2>
-
-        <br>
-
-        <div class="container">
-            <a class="btn btn-primary" href="{% url 'scratch_map:add_trip' %}">Add Trip</a>
+        <div id="photo-buttons-container" class="container">
+            <div class="btn-group" role="group" aria-label="Basic example" style="width:100%;">
+                <a class="btn btn-secondary photo-buttons" href="{% url 'scratch_map:add_trip' %}">Add Trip <i class="fas fa-plus-circle"></i></a>
+                <button id="edit-delete-button" class="btn btn-secondary photo-buttons">Edit Trip <i class="fas fa-edit"></i></button>
+            </div>
         </div>
 
         <br>
@@ -17,17 +16,45 @@
             <div class="row">
                 {% for c in trips %}
                     <div class="col-xl-6 col-md-12 col-sm-12 px-0">
-                        <div class="card photo-card mx-auto">
-                          <img src="{{ c.trip_img.url }}" class="card-img-top photo-card-img" alt="{{ c.country_visited }}">
-                          <div class="card-body">
-                            <h5 class="card-title">{{ c.country_visited }}</h5>
-                            <p class="card-text">{{ c.year_visited }}</p>
-<!--                                                          <p class="card-text">{{ c.Comment }}</p>-->
-                          </div>
+                        <div data-aos="flip-left">
+                            <div class="card photo-card mx-auto">
+                                <div class="container edit-delete">
+                                    <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-4">
+                                            <a href="{% url 'scratch_map:edit_trip' pk=c.pk %}">Edit <i class="fas fa-edit" style="color:black; text-align: center;"></i></a>
+                                        </div>
+                                        <div class="col-2" style="text-align: center;">
+                                            <a>|</a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="{% url 'scratch_map:delete_trip' pk=c.pk %}">Delete <i class="fas fa-trash-alt" style="color:black; text-align: center;"></i></a>
+                                        </div>
+                                        <div class="col-1"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container photo-card-content">
+                                    <div class="container photo-card-front">
+                                      <img src="{{ c.trip_img.url }}" class="card-img-top photo-card-img" alt="{{ c.country_visited }}">
+                                        <div class="card-body">
+                                            <h5 class="card-title">{{ c.country_visited }}</h5>
+                                            <p class="card-text">{{ c.year_visited }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="container photo-card-back">
+                                        <div class="card-body">
+                                            <p class="card-text photo-card-note" style="font-size: 20px;">{{ c.note }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 {% endfor %}
             </div>
         </div>
 
+
+        <script src="{% static 'js/scratch_map/photo_cards.js' %}"></script>
     {% endblock %}

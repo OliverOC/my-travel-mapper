@@ -15,5 +15,5 @@ urlpatterns = [
     path('update/user/<slug:slug>/', views.EditUser.as_view(), name='update'),
     path('update/profile-pic/<slug:slug>/', views.EditUserProfile.as_view(), name='profile_pic'),
     path('password_change/', auth_views.PasswordChangeView.as_view(template_name='accounts/password_update.html'), name='password_update'),
-    path('password_reset/', auth_views.PasswordResetView.as_view(template_name='accounts/password_reset.html')),
+    path('password_reset/', auth_views.PasswordResetView.as_view(template_name='accounts/password_reset.html'), name='password_reset'),
 ]

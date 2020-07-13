@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+    {% block content %}
+
+        <h1>Update Trip</h1>
+        <div class="container trip-form">
+            <form enctype="multipart/form-data" method="POST">{% csrf_token %}
+                {{ form.country_visited|as_crispy_field }}
+                {{ form.year_visited|as_crispy_field }}
+                {{ form.note|as_crispy_field }}
+                {{ form.trip_img|as_crispy_field }}
+                <input type="submit" class="btn btn-secondary submit-button" value="Update">
+            </form>
+        </div>
+
+    {% endblock %}

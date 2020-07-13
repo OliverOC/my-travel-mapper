@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+    {% block content %}
+
+        <div class="container trip-form">
+            <h1>Delete Trip</h1>
+            <form method="POST">{% csrf_token %}
+                <p>Are you sure you want to delete {{ object.country_visited }} {{ object.year_visited }}?</p>
+                <input type="submit" class="btn btn-secondary submit-button" value="Confirm">
+            </form>
+        </div>
+
+    {% endblock %}

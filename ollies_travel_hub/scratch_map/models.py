@@ -17,20 +17,18 @@ class Country(models.Model):
 
     class Meta:
         verbose_name_plural = 'Countries'
+        ordering = ["country_name"]
 
 
 class Trip(models.Model):
     country_visited = models.ForeignKey(Country, on_delete=models.CASCADE, related_name='trips', default=None)
     year_visited = models.IntegerField()
-    note = models.TextField()
-    trip_img = models.ImageField(upload_to='scratch_map/images', blank=True)
+    note = models.TextField(max_length=750)
+    trip_img = models.ImageField(upload_to='scratch_map/images', blank=True, default='scratch_map/images/default.jpg')
     author = models.ForeignKey(User, related_name='trips', on_delete=models.CASCADE)
 
-    # def save(self, *args, **kwargs):
-    #     super().save(*args, **kwargs)
-    #
-    # def get_absolute_url(self):
-    #     return reverse('scratch_map:photo_cards', kwargs={'username': self.user.username, 'pk': self.pk})
+    def get_absolute_url(self):
+        return reverse('scratch_map:photo_cards')
 
     def __str__(self):
         return "{} - {} {}".format(self.author, self.country_visited, self.year_visited)

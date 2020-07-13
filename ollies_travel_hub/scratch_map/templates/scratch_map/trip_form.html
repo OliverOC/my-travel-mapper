@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 {% extends 'base.html' %}
 {% load static %}
-{% load bootstrap4 %}
+{% load crispy_forms_tags %}
 
     {% block content %}
-        <h2>{{ title }}</h2>
-        <div id="add-trip-container" class="container">
-            <form method="POST" enctype="multipart/form-data">
-                {% csrf_token %}
-                {% bootstrap_form form %}
-                <input type="submit" class="btn btn-primary" value="Add">
+        <div class="container trip-form">
+            <h1 class="title">Add Trip</h1>
+            <p>Add information and a snap here from all the trips you've been on! This will automatically populate the 'Photos' and 'Scratch Map' pages where you can view your memories.</p>
+            <br>
+            <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+                {{ form.country_visited|as_crispy_field }}
+                {{ form.year_visited|as_crispy_field }}
+                {{ form.note|as_crispy_field }}
+                {{ form.trip_img|as_crispy_field }}
+                <input type="submit" class="btn btn-secondary submit-button" value="Add">
             </form>
         </div>
 

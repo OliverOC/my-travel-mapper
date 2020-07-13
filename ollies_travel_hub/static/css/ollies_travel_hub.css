@@ -1,49 +1,67 @@
 /* general */
-
 * {
     color: white;
     font-family: Gruppo;
 }
 body {
-    background: url('background.jpeg') no-repeat center center fixed, rgba(0,0,0,0.6);
+    background: url('background.jpeg') no-repeat center center fixed, rgba(0,0,0,0.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-blend-mode: overlay;
 }
+.submit-button {
+
+}
 
 /* landing_page */
 
 #landing_page {
-    background: black;
+    background: #29dba0;
 }
-#landing-page-image {
-    text-align: center;
-    position: relative;
-    top: 200px;
-}
-#landing-page-image img {
-    width: 40%;
-}
-.landing-page-button {
-    margin-top: 40px;
-    letter-spacing: 20px;
-    padding-left: 30px;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-
-/* Navbar */
-
-#logo-container {
-    margin: 10px auto;
-    margin-top: 40px;
+#landing-page-container {
+    max-width: 60vw;
+    margin-top: 10vh;
+    height: 80vh;
+    margin-bottom: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+#landing-page-wrapper {
+
+}
+#landing-page-image {
+    max-height: 60vh;
+    max-width: 60vw;
+}
+#landing-page-button {
+    margin-top: 25px;
+    letter-spacing: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid transparent;
+    font-weight: 900;
+}
+#landing-page-button:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 40px 10px white;
 }
 
+/* Navbar */
+#logo-container {
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #29dba0;
+}
 #navbar-container {
     margin: 0 auto;
     display: flex;
@@ -55,60 +73,195 @@ body {
     font-size: 20px;
     color: #29dba0;
     text-align: center;
-}
-#navbar-container a:hover {
-    font-weight: 900;
-}
-#navbar-account-pic {
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
+    border: 1px solid transparent;
     border-radius: 10px;
 }
+#navbar-container a.active {
+    cursor:pointer;
+    border: 1px solid #29dba0;
+}
+#navbar-container a:hover {
+    cursor:pointer;
+    border: 1px solid #29dba0;
+    transition: .5s;
+}
+#navbar-account-pic {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0;
+}
 #account-pic-container {
-    margin: 25px auto;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#account-pic-username {
+#account-pic-container .username {
     color: white;
+    margin-left: 20px;
+    margin-right: 25px;
 }
-#account-pic-username:hover {
-    font-weight: 900;
+#account-pic-container a {
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+#account-pic-container a:hover {
+    border: 1px solid white;
+    transition: .5s;
+    text-decoration: none;
 }
 
 /* accounts APP*/
 .accounts-form {
-    width: 600px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.accounts-form h3 {
+    margin-top: 30px;
+}
+.accounts-form p {
+    font-size: 20px;
+}
+#account-buttons-container {
+    margin: 30px auto;
 }
 
 /* scratch_map APP*/
-
+.page-wrapper {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
 .main-page {
     text-align: center;
 }
+.title {
+    margin-bottom: 25px;
+}
+.footer {
+    background-color: grey;
+    height:100px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+/* home PAGE */
+#home-container {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home-container h1 {
+    font-size: 44px;
+    font-weight: bold;
+    width: 275px;
+    padding: 0;
+    display: inline-block;
+}
+#home-container p {
+    font-size: 18px;
+}
+.home-wrapper {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 0 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.home-card-container {
+    height: 570px;
+    max-width: 500px;
+    border-bottom: 1px solid #29dba0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.home-img-container {
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.home-img {
+    height: 300px;
+    width: 275px;
+    border-radius: 10px;
+    bottom: 0px;
+    position: absolute;
+}
+.home-icon {
+    font-size: 200px;
+    padding: 0;
+    position: absolute;
+    bottom: 50px;
+}
 
 /* add_trip PAGE */
-
-#add-trip-container {
-    width: 400px;
+.trip-form {
+    max-width: 800px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.trip-form p {
+    font-size: 20px;
 }
 
 /* photo_cards PAGE */
 
+#photo-buttons-container {
+    padding: 0;
+    width: 400px;
+}
+.photo-buttons {
+    width: 50%;
+    font-size: 20px;
+}
 #photo-card-container {
 
 }
 .photo-card {
     width: 500px;
-    margin: 20px 30px;
+    margin: 20px 0px;
     padding: 2px 2px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.photo-card-front {
+    padding: 0;
+    height: 620px;
+    display: block;
+}
+.photo-card-back {
+    padding: 0;
+    height: 620px;
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
 .photo-card-img {
+    display: block;
     height: 500px;
     object-fit: cover;
+}
+.photo-card .photo-card-note p {
+    padding: 0px 100px;
+    font-size: 6px;
 }
 .photo-card h5 {
     color: grey;
@@ -118,34 +271,55 @@ body {
     color: grey;
     font-size: 24px;
 }
+.photo-card-content {
+    padding: 0;
+}
+.photo-card .edit-delete a {
+    color: black;
+    font-size: 20px;
+}
+.edit-delete {
+    display: none;
+}
 
 /* map PAGE */
 
 #map-container {
     padding: 0 0;
     margin: 0 auto;
-    width: 90%;
+    max-width: 96vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
-#map-card-container {
-    margin-top: 40px;
-}
-#map-card {
+.map-card {
     color: grey;
-    margin: 20px 30px;
+    margin: 0 30px;
     padding: 2px 2px;
     text-align: center;
     display: none;
 }
-#map-card * {
-    color: grey;
-}
 #map-card-img {
 
+}
+.map-card-caption {
+    padding: 10px 50px;
+    padding-bottom: 30px;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    min-height: 200px;
+}
+.map-card-caption h5 {
+    font-size: 26px;
+}
+.map-card-caption p {
+    font-size: 16px;
+}
+.countries-img-link {
+    font-size: 18px;
 }
 .picture-upload {
     background: Transparent;
     border: none;
 }
-
-
 

@@ -1,5 +1,7 @@
 from django.http import Http404
 from django.shortcuts import render, redirect, get_object_or_404
+from django.urls import reverse, reverse_lazy
+
 from .models import Country, Trip
 from .forms import TripForm
 from django.contrib.auth.decorators import login_required
@@ -24,17 +26,6 @@ def home_view(request):
     return render(request, 'scratch_map/home.html', context)
 
 
-# @login_required
-# def map_view(request):
-#     # country_list = Country.objects.all()
-#     trip_list = Trip.objects.all()
-#     context = {
-#         'title': 'Map',
-#         'country': trip_list,
-#     }
-#     return render(request, 'scratch_map/map.html', context)
-
-
 class MapListView(LoginRequiredMixin, ListView):
     model = Trip
     context_object_name = 'trips'
@@ -46,23 +37,12 @@ class MapListView(LoginRequiredMixin, ListView):
         except User.DoesNotExist:
             raise Http404
         else:
-            return self.trips_user.trips.all()
+            return self.trips_user.trips.order_by('year_visited').all()
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'Map'
         return context
-
-
-# @login_required
-# def photo_cards_view(request):
-#     # country_list = Country.objects.all()
-#     trip_list = Trip.objects.all()
-#     context = {
-#         'title': 'Photos',
-#         'country': trip_list,
-#     }
-#     return render(request, 'scratch_map/photo_cards.html', context)
 
 
 class TripListView(LoginRequiredMixin, ListView):
@@ -75,7 +55,7 @@ class TripListView(LoginRequiredMixin, ListView):
         except User.DoesNotExist:
             raise Http404
         else:
-            return self.trips_user.trips.all()
+            return self.trips_user.trips.order_by('year_visited').all()
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -92,14 +72,26 @@ class CreateTripView(LoginRequiredMixin, CreateView):
 
     model = Trip
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['title'] = 'Add Trip'
-        return context
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     return context
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.author = self.request.user
         self.object.save()
         return super().form_valid(form)
+
+
+class EditTrip(UpdateView):
+    model = Trip
+    form_class = TripForm
+    template_name = 'scratch_map/trip_update.html'
+
+
+class DeleteTrip(DeleteView):
+    model = Trip
+    template_name = 'scratch_map/trip_confirm_delete.html'
+    success_url = reverse_lazy('scratch_map:photo_cards')
+
 
